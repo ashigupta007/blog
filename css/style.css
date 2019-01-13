@@ -341,14 +341,14 @@ button i
 {
 	float: right;
 }
-.menu_list
+.top_navbar .menu_list
 {
 	list-style: none;
 	color:#707070;
 	font-weight: bold;
 	letter-spacing: 1.5px;
 }
-.menu_list img
+.top_navbar .menu_list img
 {
 	height: 30px;
 	margin-left: 20px;
@@ -359,8 +359,68 @@ button i
 	top: 0px;
 	z-index: 2;
 	color: white;
-	padding:20px;
 	box-shadow: 1px 0px 5px rgba(0,0,0,0.3);
 	background:linear-gradient(to bottom,#464452,#1A191E);
 	position: fixed;
+}
+.header
+{
+	font-size: 18px;
+	letter-spacing:3px;
+	font-family: 'Pacifico', cursive;
+	padding: 10px 30px 10px 20px;
+}
+.header .icon
+{
+	height: 40px;
+	width: 40px;
+	background-color:#DA2C38;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	margin-right: 20px;
+}
+.navbar_left .menu_list
+{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+	margin-top: 30px;
+}
+.navbar_left .menu_list li a
+{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.navbar_left .menu_list li a:hover, .navbar_left .menu_list li a:focus 
+{
+	color: white;
+	text-decoration: none;
+}
+.navbar_left .menu_list li
+{
+	display: block;
+	padding:5px;
+	padding-right: 30px;
+	padding-left: 35px;
+	cursor: pointer;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	transition: all 200ms;
+}
+.navbar_left .menu_list li i
+{
+	margin-right: 30px;
+}
+.navbar_left .menu_list li:hover
+{
+	background-color: rgba(0,0,0,0.2);
+}
+.navbar_left .menu_list .active
+{
+	background-color: rgba(0,0,0,0.2);
 }
